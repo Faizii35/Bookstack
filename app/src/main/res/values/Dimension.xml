@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="ULAMarginTop">30dp</dimen>
+    <dimen name="ULArlPictureMarginTop">50dp</dimen>
+    <dimen name="ULAtvCopyrightMarginBottom">15dp</dimen>
+
+    <dimen name="ULAFontSize">20sp</dimen>
+    <dimen name="ULAtvForgotPasswordFontSize">15sp</dimen>
+    <dimen name="ULAButtonLibrarianFontSize">15sp</dimen>
+    <dimen name="ULACopyrightFontSize">12sp</dimen>
+
+    <dimen name="ULAPictureWeight">0.2</dimen>
+    <dimen name="RelativeLayoutLoginProcessWeight">0.3</dimen>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ULActivity"
+    android:background="@color/colorLoginActivityBackground"
+    >
+
+    <RelativeLayout
+        android:id="@+id/ULArlPicture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/ULArlPictureMarginTop"
+        android:layout_weight="0.15">
+
+        <ImageView
+            android:id="@+id/ULAivPicture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/login_student_male" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ULArlLoginProcess"
+        android:layout_weight="0.1"
+        >
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ULAtilUserId"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ULAtietUserId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ULAtilEtUserIdHint"
+                android:inputType="phone"
+                android:textSize="@dimen/ULAFontSize"
+                >
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tilLoginActivityPassword"
+            android:layout_below="@+id/ULAtilUserId"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ULAtietPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ULAtilEtPasswordHint"
+                android:inputType="textPassword"
+                android:textSize="@dimen/ULAFontSize"
+
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/ULAbtnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_below="@+id/tilLoginActivityPassword"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/colorLoginTextButton"
+            android:background="@color/colorLoginButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/ULAMarginTop"
+            android:textSize="@dimen/ULAFontSize"
+            >
+        </Button>
+
+        <TextView
+            android:id="@+id/ULAtvForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/ULAtvForgotPasswordFontSize"
+            android:text="Forgot Password?"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/ULAbtnLogin"
+            android:layout_marginTop="@dimen/ULAMarginTop"
+            android:textColor="@color/colorLoginButton">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ULAtvCopyright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ULAtvCopyright"
+            android:layout_marginBottom="@dimen/ULAtvCopyrightMarginBottom"
+            android:textSize="@dimen/ULACopyrightFontSize"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorLoginButton"
+
+            />
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

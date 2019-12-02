@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bookstack</string>
+
+    <string name="ULAtilEtUserIdHint">User ID</string>
+    <string name="ULAtilEtPasswordHint">Password</string>
+
+    <string name="ULAbtnLoginText">Login</string>
+    <string name="UlabtnLoginAsLibrarian">Login As Librarian</string>
+
+    <string name="ULAtvForgotPassword">Forgot Password?</string>
+    <string name="ULAtvCopyright">All Rights Reserved By HFZ.Co Under Copyright Act 2019</string>
+
+</resources>
